@@ -6,8 +6,7 @@ import {SortableContainer, SortableElement, SortableHandle, arrayMove} from '../
 import {defaultFlexTableRowRenderer, FlexColumn, FlexTable, VirtualScroll} from 'react-virtualized';
 import 'react-virtualized/styles.css';
 import Infinite from 'react-infinite';
-import range from 'lodash/range';
-import random from 'lodash/random';
+import { range, random } from 'lodash';
 import classNames from 'classnames';
 
 function getItems(count, height) {
